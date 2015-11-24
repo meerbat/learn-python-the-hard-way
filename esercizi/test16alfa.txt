@@ -1,0 +1,2 @@
+
+No, it doesn't. It actually makes something called a "file object." You can think of a file like an old tape drive that you saw on mainframe computers in the 1950s, or even like a DVD player from today. You can move around inside them, and then "read" them, but the DVD player is not the DVD the same way the file object is not the file's contents.
