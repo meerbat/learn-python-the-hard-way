@@ -1,6 +1,6 @@
 from sys import argv
 
-script, user_name = argv #queste sono le var che arirvano da fuori.
+script, user_name = argv #queste sono le var che arrivano da fuori.
 prompt = '>' #solo un modo per visualizzare una freccetta.
 
 print "Hi %s, I'm the %s script." % (user_name, script)
