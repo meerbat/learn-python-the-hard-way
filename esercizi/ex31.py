@@ -33,7 +33,7 @@ elif door == "2":
     else:
         print "The insanity rots your eyes into a pool of muck. Good job!"
 
-elif int(door) in range(3, 100):
+elif int(door) in range(3, 100):  #int() prende il valore numerico di door.
     print "Were you trying to escape?"
 
 else:
