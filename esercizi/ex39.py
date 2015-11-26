@@ -23,6 +23,11 @@ cities['OR'] = 'Portland'
 
 #print out some cities
 print interr
+print "NY state has: ", cities['NY']
+print "OR state has: ", cities['OR']
+
+#print out some states
+print interr
 print "Michigan's abbreviation is: ", states['Michigan']
 print "Florida's abbreviation is: ", states['Florida']
 
@@ -31,7 +36,7 @@ print interr
 print "Michigan has: ", cities[states['Michigan']]
 print "Florida has: ", cities[states['Florida']]
 
-# print every state's abbreviation
+# print every state abbreviation
 print interr
 for state, abbrev in states.items():
     print "%s is abbreviated as %s" % (state, abbrev)
